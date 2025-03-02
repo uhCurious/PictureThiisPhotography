@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Collections - Picture Thiis Photography</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload-0 is-preload-1 is-preload-2">
+
+        <!-- Main -->
+            <div id="main">
+
+                <!-- Header -->
+                    <header id="header">
+                        <h1>Collections</h1>
+                        <p>Explore my photo sets in slideshows</p>
+                    </header>
+
+                <!-- Slideshow -->
+                    <section id="slideshow">
+                        <h2>Collection 1</h2>
+                        <div class="slider">
+                            <div><img src="images/collections/01/01.jpg" alt="Collection 1 - Photo 1" /></div>
+                            <div><img src="images/collections/01/02.jpg" alt="Collection 1 - Photo 2" /></div>
+                            <div><img src="images/collections/01/03.jpg" alt="Collection 1 - Photo 3" /></div>
+                        </div>
+
+                        <h2>Collection 2</h2>
+                        <div class="slider">
+                            <div><img src="images/collections/02/01.jpg" alt="Collection 2 - Photo 1" /></div>
+                            <div><img src="images/collections/02/02.jpg" alt="Collection 2 - Photo 2" /></div>
+                            <div><img src="images/collections/02/03.jpg" alt="Collection 2 - Photo 3" /></div>
+                        </div>
+                    </section>
+
+                <!-- Footer -->
+                    <footer id="footer">
+                        <ul class="copyright">
+                            <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
+                        </ul>
+                    </footer>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $('.slider').slick({
+                        dots: true,
+                        infinite: true,
+                        speed: 300,
+                        slidesToShow: 1,
+                        adaptiveHeight: true
+                    });
+                });
+            </script>
+
+    </body>
+</html>
